@@ -1,0 +1,273 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+/* ------------ container ------------ */
+.Container{
+    padding:10px;
+    width:1200px;
+    min-width: 1000px;
+    margin:0 auto;
+}
+
+/* ------------ header ------------ */
+.HeaderLeft{
+    width: 450px;
+    height: 100px;
+    background-color: #00205b;
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    float: left;
+}
+
+.HeaderRight{
+    width: 700px;
+    height: 100px;
+    background-color: #00205b;
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    float: right;
+}
+
+p.Title{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #FFF;
+  font-size: 25px;
+  font-family: 'Noto Serif', serif;
+}
+
+/* ------------ content ------------ */
+.ContentLeft{
+    width: 450px;
+    height: 260px;
+    max-height: 300px;
+    background-color: #FFF;
+    overflow: auto;
+    float: left;
+    position: absolute;
+    top: 110px;
+}
+
+.ContentRight{
+    width: 700px;
+    height: 471px;
+    max-height: 471px;
+    background-color: #FFF;
+    overflow: auto;
+    float: right;
+    top: 100px;
+}
+
+.Content::-webkit-scrollbar {
+    display: none;
+}
+.Content ul{
+    padding:0;
+    margin:0;
+}
+
+#listRight{
+  padding: 0;
+}
+
+.itemLeft{
+    width:450px;
+    min-height: 200px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itemLeft p.Country{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:40px;
+    top:15px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemLeft p.salary25{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:0px;
+    top:60px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemLeft p.salary50{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:0px;
+    top:90px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemLeft p.salary75{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:0px;
+    top:120px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemLeft i.sa{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:5px;
+    top:15px;
+    color: #4162f6;
+}
+
+.itemLeft i.sa:hover{
+    color:#6eb200;
+    cursor: pointer;
+}
+
+.itemRight{
+    width: 700px;
+    min-height: 100px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itemRight p.Country{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:15px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemRight p.salary25{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 15px;
+    left:10px;
+    top:60px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemRight p.salary50{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 15px;
+    left:230px;
+    top:60px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemRight p.salary75{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 15px;
+    left:450px;
+    top:60px;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    max-width:285px;
+}
+
+.itemRight i.ex{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:15px;
+    color: #4162f6;
+}
+
+.itemRight i.ex:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+
+/* ------------ add item ------------ */
+.Input{
+    position: relative;
+    width: 430px;
+    height: 50px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    position: absolute;
+    top: 310px;
+}
+.Input i{
+    position: absolute;
+    font-size: 30px;
+    color: #4162f6;
+}
+
+.Input i:hover{
+  color:#6eb200;
+  cursor: pointer;
+}
+
+.Input input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+.Input input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #4162f6;
+    font-size: 20px;
+}
+.Input input::-moz-placeholder { /* Firefox 19+ */
+    color: #4162f6;
+    font-size: 20px;
+}
+.Input input:-ms-input-placeholder { /* IE 10+ */
+    color: #4162f6;
+    font-size: 20px;
+}
+.Input input:-moz-placeholder { /* Firefox 18- */
+    color: #4162f6;
+    font-size: 20px;
+}
