@@ -18,7 +18,6 @@ let localdata = localStorage.getItem("SOFTWARESALARYDATA");
 if(localdata){
   SavedCountrydata = JSON.parse(localdata);
   id = SavedCountrydata.length;
-  console.log(SavedCountrydata);
   UpdateSavedCountries(SavedCountrydata)
 }else{
   SavedCountrydata = [];
